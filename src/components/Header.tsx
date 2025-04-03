@@ -41,13 +41,6 @@ const Header: React.FC = () => {
               {item}
             </a>
           ))}
-          
-          <a
-            href="#contact"
-            className="ml-2 motion-button text-sm"
-          >
-            Get in Touch
-          </a>
         </nav>
 
         {/* Mobile Menu Button */}
