@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Fira+Code:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
@@ -6,33 +7,33 @@
 
 @layer base {
   :root {
-    --background: 230 35% 7%;
-    --foreground: 210 40% 98%;
+    --background: 163 35% 7%;
+    --foreground: 163 100% 98%;
 
-    --card: 230 25% 10%;
-    --card-foreground: 210 40% 98%;
+    --card: 163 25% 10%;
+    --card-foreground: 163 100% 98%;
 
-    --popover: 230 25% 10%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 163 25% 10%;
+    --popover-foreground: 163 100% 98%;
 
-    --primary: 252 100% 70%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 164 77% 75%;
+    --primary-foreground: 163 35% 7%;
 
-    --secondary: 217 100% 85%;
-    --secondary-foreground: 230 35% 7%;
+    --secondary: 164 77% 75%;
+    --secondary-foreground: 163 35% 7%;
 
-    --muted: 230 25% 15%;
-    --muted-foreground: 215 20% 65%;
+    --muted: 163 25% 15%;
+    --muted-foreground: 163 40% 65%;
 
-    --accent: 20 100% 70%;
-    --accent-foreground: 230 35% 7%;
+    --accent: 164 77% 75%;
+    --accent-foreground: 163 35% 7%;
 
     --destructive: 0 84% 60%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 163 100% 98%;
 
-    --border: 230 25% 20%;
-    --input: 230 25% 20%;
-    --ring: 252 100% 70%;
+    --border: 163 25% 20%;
+    --input: 163 25% 20%;
+    --ring: 164 77% 75%;
 
     --radius: 0.75rem;
   }
@@ -42,7 +43,7 @@
   }
 
   body {
-    @apply bg-background text-foreground antialiased selection:bg-primary/30 selection:text-white;
+    @apply bg-[rgb(18,27,27)] text-foreground antialiased selection:bg-primary/30 selection:text-white;
     font-feature-settings: "ss01", "ss02", "cv01", "cv02", "cv03";
     overflow-x: hidden;
     position: relative;
@@ -66,17 +67,17 @@
 
   /* Custom utility classes */
   .text-gradient {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary;
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-[rgb(141,240,204)] to-[rgb(141,240,204)/80];
   }
 
   .text-shimmer {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary via-white to-secondary bg-[length:200%_100%] animate-text-shimmer;
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-[rgb(141,240,204)] via-white to-[rgb(141,240,204)/80] bg-[length:200%_100%] animate-text-shimmer;
   }
 
   .bg-grid {
     background-size: 3rem 3rem;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
-                      linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+    background-image: linear-gradient(to right, rgba(141, 240, 204, 0.05) 1px, transparent 1px),
+                      linear-gradient(to bottom, rgba(141, 240, 204, 0.05) 1px, transparent 1px);
   }
 
   .glass {
@@ -85,14 +86,14 @@
 
   /* Motion.dev inspired buttons */
   .motion-button {
-    @apply relative rounded-md border border-white/10 bg-white/5 px-4 py-3 text-sm font-medium 
-           text-white shadow-sm backdrop-blur-sm transition-all hover:bg-white/10 
-           focus:outline-none focus:ring-2 focus:ring-primary/50 active:scale-[0.98];
+    @apply relative rounded-md border border-[rgb(141,240,204)]/10 bg-[rgb(141,240,204)]/5 px-4 py-3 text-sm font-medium 
+           text-white shadow-sm backdrop-blur-sm transition-all hover:bg-[rgb(141,240,204)]/10 
+           focus:outline-none focus:ring-2 focus:ring-[rgb(141,240,204)]/50 active:scale-[0.98];
   }
 
   /* Subtle glow effect for elements */
   .glow {
-    box-shadow: 0 0 20px 5px rgba(124, 58, 237, 0.1);
+    box-shadow: 0 0 20px 5px rgba(141, 240, 204, 0.1);
   }
 
   /* Staggered animation delay helpers */

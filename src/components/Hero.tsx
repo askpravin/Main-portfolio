@@ -37,14 +37,14 @@ const Hero: React.FC = () => {
     >
       {/* Background decorative elements with a motion.dev style */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="parallax-bg absolute top-1/4 -left-20 w-72 h-72 rounded-full bg-primary/20 blur-3xl opacity-30"></div>
-        <div className="parallax-bg absolute bottom-1/4 -right-20 w-80 h-80 rounded-full bg-accent/20 blur-3xl opacity-30"></div>
-        <div className="parallax-bg absolute top-1/3 right-1/4 w-48 h-48 rounded-full bg-secondary/20 blur-3xl opacity-20"></div>
+        <div className="parallax-bg absolute top-1/4 -left-20 w-72 h-72 rounded-full bg-[rgb(141,240,204)]/20 blur-3xl opacity-30"></div>
+        <div className="parallax-bg absolute bottom-1/4 -right-20 w-80 h-80 rounded-full bg-[rgb(141,240,204)]/20 blur-3xl opacity-30"></div>
+        <div className="parallax-bg absolute top-1/3 right-1/4 w-48 h-48 rounded-full bg-[rgb(141,240,204)]/20 blur-3xl opacity-20"></div>
       </div>
       
       <div className="container relative z-10 px-4 py-32 mx-auto text-center">
         <div className="mb-8">
-          <div className="inline-block p-1 rounded-lg bg-white/5 backdrop-blur-md border border-white/10 mb-10">
+          <div className="inline-block p-1 rounded-lg bg-[rgb(141,240,204)]/5 backdrop-blur-md border border-[rgb(141,240,204)]/10 mb-10">
             <span className="text-xs text-white/70 px-4 py-1">REACT DEVELOPER</span>
           </div>
         </div>
@@ -79,7 +79,7 @@ const Hero: React.FC = () => {
       
       <a 
         href="#about" 
-        className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-foreground/50 hover:text-foreground transition-colors duration-300 animate-bounce-subtle"
+        className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-[rgb(141,240,204)]/50 hover:text-[rgb(141,240,204)] transition-colors duration-300 animate-bounce-subtle"
         aria-label="Scroll down"
       >
         <ArrowDown className="h-6 w-6" />

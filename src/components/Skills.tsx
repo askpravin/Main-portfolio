@@ -1,5 +1,5 @@
 
-import React, { useEffect, useRef } from 'react';
+import React from 'react';
 import { Code, TerminalSquare, Files, Layout, Blocks, Pencil, Server, Database } from 'lucide-react';
 
 type Skill = {
@@ -8,8 +8,6 @@ type Skill = {
 };
 
 const Skills: React.FC = () => {
-  const skillsRef = useRef<HTMLDivElement>(null);
-
   const skills: Skill[] = [
     { 
       name: 'React', 
@@ -54,7 +52,7 @@ const Skills: React.FC = () => {
       </div>
       
       <div className="container mx-auto px-4 relative z-10">
-        <div ref={skillsRef} className="max-w-4xl mx-auto">
+        <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[rgb(141,240,204)]">Technical Expertise</h2>
           <p className="text-foreground/80 mb-12 max-w-2xl mx-auto">
             I specialize in front-end development with a focus on creating interactive, 
@@ -81,4 +79,3 @@ const Skills: React.FC = () => {
 };
 
 export default Skills;
-
