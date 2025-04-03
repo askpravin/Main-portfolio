@@ -52,26 +52,24 @@ const Skills: React.FC = () => {
       </div>
       
       <div className="container mx-auto px-4 relative z-10">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[rgb(141,240,204)]">Technical Expertise</h2>
-          <p className="text-foreground/80 mb-12 max-w-2xl mx-auto">
-            I specialize in front-end development with a focus on creating interactive, 
-            high-performance web applications with modern technologies.
-          </p>
-          
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8">
-            {skills.map((skill) => (
-              <div 
-                key={skill.name} 
-                className="glass rounded-lg p-6 flex flex-col items-center justify-center hover:bg-[rgb(141,240,204)]/5 transition-all duration-300"
-              >
-                <div className="mb-3">
-                  {skill.icon}
-                </div>
-                <h3 className="text-center text-white">{skill.name}</h3>
+        <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[rgb(141,240,204)]">Technical Expertise</h2>
+        <p className="text-foreground/80 mb-12 max-w-2xl">
+          I specialize in front-end development with a focus on creating interactive, 
+          high-performance web applications with modern technologies.
+        </p>
+        
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8">
+          {skills.map((skill) => (
+            <div 
+              key={skill.name} 
+              className="glass rounded-lg p-6 flex flex-col items-center justify-center hover:bg-[rgb(141,240,204)]/5 transition-all duration-300"
+            >
+              <div className="mb-3">
+                {skill.icon}
               </div>
-            ))}
-          </div>
+              <h3 className="text-center text-white">{skill.name}</h3>
+            </div>
+          ))}
         </div>
       </div>
     </section>

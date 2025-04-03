@@ -14,7 +14,7 @@ const Contact: React.FC = () => {
       
       <div className="container mx-auto px-4 relative z-10">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[rgb(141,240,204)]">Get In Touch</h2>
-        <p className="text-foreground/80 mb-12 max-w-2xl mx-auto">
+        <p className="text-foreground/80 mb-12 max-w-2xl">
           Interested in working together? Feel free to reach out for collaborations or just a friendly hello.
         </p>
         
