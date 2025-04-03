@@ -44,8 +44,8 @@ const Hero: React.FC = () => {
       
       <div className="container relative z-10 px-4 py-32 mx-auto text-center">
         <div className="mb-8">
-          <div className="inline-block p-1 rounded-lg bg-[rgb(141,240,204)]/5 backdrop-blur-md border border-[rgb(141,240,204)]/10 mb-10">
-            <span className="text-xs text-white/70 px-4 py-1">REACT DEVELOPER</span>
+          <div className="inline-block p-1 rounded-lg bg-[rgb(141,240,204)]/10 backdrop-blur-md border border-[rgb(141,240,204)]/20 mb-10">
+            <span className="text-xs font-medium text-[rgb(141,240,204)] px-4 py-1">REACT DEVELOPER</span>
           </div>
         </div>
       
