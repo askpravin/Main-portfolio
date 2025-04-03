@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,14 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+                // Portfolio specific colors
+                'portfolio': {
+                    'blue': '#2D3250',
+                    'purple': '#7077A1',
+                    'lavender': '#F6B17A',
+                    'peach': '#F6B17A',
+                }
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -84,12 +92,63 @@ export default {
 					to: {
 						height: '0'
 					}
-				}
+				},
+                // Custom animations
+                'fade-in': {
+                    '0%': { opacity: '0' },
+                    '100%': { opacity: '1' }
+                },
+                'fade-in-up': {
+                    '0%': { opacity: '0', transform: 'translateY(20px)' },
+                    '100%': { opacity: '1', transform: 'translateY(0)' }
+                },
+                'fade-in-right': {
+                    '0%': { opacity: '0', transform: 'translateX(-20px)' },
+                    '100%': { opacity: '1', transform: 'translateX(0)' }
+                },
+                'float': {
+                    '0%': { transform: 'translateY(0px)' },
+                    '50%': { transform: 'translateY(-10px)' },
+                    '100%': { transform: 'translateY(0px)' }
+                },
+                'text-shimmer': {
+                    '0%': {
+                        backgroundPosition: '-1000px 0',
+                    },
+                    '100%': {
+                        backgroundPosition: '1000px 0',
+                    },
+                },
+                'pulse-slow': {
+                    '0%, 100%': { opacity: '1' },
+                    '50%': { opacity: '0.8' },
+                },
+                'rotate-slow': {
+                    '0%': { transform: 'rotate(0deg)' },
+                    '100%': { transform: 'rotate(360deg)' },
+                },
+                'bounce-subtle': {
+                    '0%, 100%': { transform: 'translateY(0)' },
+                    '50%': { transform: 'translateY(-5px)' },
+                },
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
-			}
+				'accordion-up': 'accordion-up 0.2s ease-out',
+                // Custom animations
+                'fade-in': 'fade-in 0.8s ease-out forwards',
+                'fade-in-up': 'fade-in-up 0.8s ease-out forwards',
+                'fade-in-right': 'fade-in-right 0.8s ease-out forwards',
+                'float': 'float 6s ease-in-out infinite',
+                'text-shimmer': 'text-shimmer 3s infinite linear',
+                'pulse-slow': 'pulse-slow 4s infinite ease-in-out',
+                'rotate-slow': 'rotate-slow 10s linear infinite',
+                'bounce-subtle': 'bounce-subtle 3s ease-in-out infinite',
+			},
+            fontFamily: {
+                'sans': ['Inter', 'ui-sans-serif', 'system-ui'],
+                'mono': ['Fira Code', 'monospace'],
+            },
 		}
 	},
 	plugins: [require("tailwindcss-animate")],
