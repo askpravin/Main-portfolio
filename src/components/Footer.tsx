@@ -15,35 +15,35 @@ const Footer: React.FC = () => {
               </h2>
             </Link>
             <p className="text-foreground/70 mb-6 max-w-md">
-              Creating exceptional digital experiences through modern frontend
-              development. Specializing in React, animation, and interactive web
-              applications.
+              Delivering robust and scalable backend solutions with expertise in
+              Node.js, Express, and database systems. Specializing in API
+              development, server architecture, and cloud infrastructure.
             </p>
 
             <div className="flex space-x-4">
               <a
-                href="#"
+                href="https://github.com/askpravin"
                 aria-label="GitHub"
                 className="text-[rgb(141,240,204)]/60 hover:text-[rgb(141,240,204)] transition-colors duration-200"
               >
                 <Github className="h-5 w-5" />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/askpravinjadhav/"
                 aria-label="LinkedIn"
                 className="text-[rgb(141,240,204)]/60 hover:text-[rgb(141,240,204)] transition-colors duration-200"
               >
                 <Linkedin className="h-5 w-5" />
               </a>
               <a
-                href="#"
+                href="https://twitter.com/pravinselu"
                 aria-label="Twitter"
                 className="text-[rgb(141,240,204)]/60 hover:text-[rgb(141,240,204)] transition-colors duration-200"
               >
                 <Twitter className="h-5 w-5" />
               </a>
               <a
-                href="#"
+                href="mailto:askpravinjadhav@gmail.com"
                 aria-label="Email"
                 className="text-[rgb(141,240,204)]/60 hover:text-[rgb(141,240,204)] transition-colors duration-200"
               >
@@ -77,8 +77,8 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4 text-white">Contact</h3>
             <ul className="space-y-3 text-foreground/70">
-              <li>contact@devmotion.com</li>
-              <li>San Francisco, CA</li>
+              <li>askpravinjadhav@gmail.com</li>
+              <li>Pune - Maharashtra, India</li>
             </ul>
           </div>
         </div>
