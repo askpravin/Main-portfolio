@@ -29,10 +29,10 @@ const Projects: React.FC = () => {
     },
     {
       id: 2,
-      title: "Task Management App",
-      tags: ["React", "TypeScript", "Firebase"],
+      title: "Portfolio Website",
+      tags: ["HTML", "CSS", "JavaScript"],
       image: "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d",
-      live: "#",
+      live: "https://internshala-portfolio.netlify.app/",
       github: "#",
       type: "web",
     },
