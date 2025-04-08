@@ -56,10 +56,10 @@ const Hero: React.FC = () => {
 
         <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold mb-6 leading-tight">
           <span className="block opacity-0 animate-fade-in-up delay-1">
-            Creative
+            Fullstack
           </span>
           <span className="block bg-gradient-to-r from-[rgb(141,240,204)] to-white bg-clip-text text-transparent animate-fade-in-up delay-2">
-            React Developer
+            Developer
           </span>
           <span className="block opacity-0 animate-fade-in-up delay-3">
             Portfolio

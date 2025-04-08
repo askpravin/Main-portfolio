@@ -35,6 +35,7 @@ const Projects: React.FC = () => {
       live: "https://internshala-portfolio.netlify.app/",
       github: "#",
       type: "web",
+      description: "Developed during Internshala training program",
     },
     {
       id: 3,
