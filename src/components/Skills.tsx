@@ -38,7 +38,7 @@ const Skills: React.FC = () => {
       icon: <Pencil className="w-8 h-8 text-[rgb(141,240,204)]" />,
     },
     {
-      name: "Tailwind",
+      name: "MongoDB",
       icon: <Blocks className="w-8 h-8 text-[rgb(141,240,204)]" />,
     },
     {

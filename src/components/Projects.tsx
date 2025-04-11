@@ -41,10 +41,10 @@ const Projects: React.FC = () => {
     },
     {
       id: 3,
-      title: "Weather Dashboard",
+      title: "Convert Any Format",
       tags: ["React", "Chart.js", "API"],
-      image: "https://images.unsplash.com/photo-1592210454359-9043f067919b",
-      live: "#",
+      image: "./convert.png",
+      live: "https://www.convertanyformat.site/",
       github: "#",
       type: "web",
     },
