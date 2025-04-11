@@ -7,6 +7,8 @@ import { useEffect } from "react";
 import Index from "@/pages/Index";
 import NotFound from "@/pages/NotFound";
 import AboutMe from "@/pages/AboutMe";
+import { Analytics } from "@vercel/analytics/react";
+
 const queryClient = new QueryClient();
 
 const App = () => {
@@ -50,6 +52,7 @@ const App = () => {
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
+        {/* <Analytics /> */} <Analytics />
       </TooltipProvider>
     </QueryClientProvider>
   );
