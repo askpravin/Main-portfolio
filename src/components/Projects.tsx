@@ -42,13 +42,13 @@ const Projects: React.FC = () => {
     {
       id: 3,
       title: "Convert Any Format",
-      tags: ["React", "Chart.js", "API"],
+      tags: ["React", "TypeScript", "API"],
       image: "./convert.png",
       live: "https://www.convertanyformat.site/",
       github: "#",
       type: "web",
       description:
-        "A web application that converts various file formats using Chart.js and an API.",
+        "A web application that converts various file formats using React.",
     },
     {
       id: 4,
