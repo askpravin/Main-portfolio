@@ -20,12 +20,14 @@ const Projects: React.FC = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: "E-Commerce Platform",
+      title: "Nodejs Mastery - Learning Website",
       tags: ["React", "Next.js", "Stripe"],
-      image: "https://images.unsplash.com/photo-1561069934-eee225952461",
-      live: "#",
+      image: "/nodejs.png",
+      live: "https://nodejsmastery.site",
       github: "#",
       type: "web",
+      description:
+        "A comprehensive learning platform for Node.js development with integrated payment processing.",
     },
     {
       id: 2,
