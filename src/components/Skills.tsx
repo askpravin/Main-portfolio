@@ -34,7 +34,7 @@ const Skills: React.FC = () => {
       icon: <Layout className="w-8 h-8 text-[rgb(141,240,204)]" />,
     },
     {
-      name: "CSS/SCSS",
+      name: "Express.js",
       icon: <Pencil className="w-8 h-8 text-[rgb(141,240,204)]" />,
     },
     {

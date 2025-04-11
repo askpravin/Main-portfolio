@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
           <div className="lg:col-span-2">
             <Link to="/" className="inline-block">
               <h2 className="text-2xl font-bold text-[rgb(141,240,204)] mb-4 hover:opacity-80 transition-opacity">
-                dev.motion
+                Pravin Jadhav
               </h2>
             </Link>
             <p className="text-foreground/70 mb-6 max-w-md">
@@ -84,7 +84,9 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="mt-12 pt-6 border-t border-[rgb(141,240,204)]/10 text-center text-foreground/50 text-sm">
-          <p>© {new Date().getFullYear()} dev.motion. All rights reserved.</p>
+          <p>
+            © {new Date().getFullYear()} Pravin Jadhav. All rights reserved.
+          </p>
           <p className="mt-1">
             Designed & Built with{" "}
             <span className="text-[rgb(141,240,204)]">💜</span>
