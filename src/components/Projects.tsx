@@ -47,6 +47,8 @@ const Projects: React.FC = () => {
       live: "https://www.convertanyformat.site/",
       github: "#",
       type: "web",
+      description:
+        "A web application that converts various file formats using Chart.js and an API.",
     },
     {
       id: 4,
